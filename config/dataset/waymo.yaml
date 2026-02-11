@@ -1,0 +1,16 @@
+name: waymo
+
+data_path: data/waymo/processed/training
+split_file: data/waymo_splits/static32.txt
+
+load_size: [320, 480]
+
+num_cams: 1
+num_frames: 2
+context_ids: [0]
+target_ids: [1]
+
+eval_scene_id: [3]
+test_scene_ids_list: [3, 69, 232, 495]
+
+background_color: [0.0, 0.0, 0.0]

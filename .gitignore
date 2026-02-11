@@ -38,10 +38,6 @@ Thumbs.db
 # Hydra
 .hydra/
 
-# Datasets
-data/
-dataset/
-
 # Large files
 *.zip
 *.rar

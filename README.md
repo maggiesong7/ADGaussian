@@ -26,7 +26,7 @@ pip install scripts/submodules/diff-gaussian-rasterization_ms
 
 #### Pretrained weights   
 
-We provide the pre-trained weights of our ADGaussian at [gdrive](https://drive.google.com/drive/folders/1vlPobBvzWmfVmdkNMrioH9rNF475QxpM?usp=sharing).
+We provide the pre-trained weights of our ADGaussian at [google drive](https://drive.google.com/drive/folders/1vlPobBvzWmfVmdkNMrioH9rNF475QxpM?usp=sharing).
 
 
 ## Train & inference

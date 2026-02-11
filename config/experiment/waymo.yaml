@@ -1,0 +1,35 @@
+# @package _global_
+
+defaults:
+  - override /dataset: waymo
+  - override /model/encoder: geofdn
+  - override /loss: [mse, lpips, depth]
+
+wandb:
+  name: waymo
+  tags: [waymo, 1280x1920]
+
+data_loader:
+  train:
+    batch_size: 1
+
+trainer:
+  max_steps: 300_001
+
+train:
+  depth_mode: depth
+
+# lpips loss
+loss:
+  lpips:
+    apply_after_step: 0
+    weight: 0.05
+
+dataset: 
+  data_path: data/waymo/processed/training
+
+test:
+  crop_range_h: null
+  crop_range_w: [10, 6]
+  eval_time_skip_steps: 5
+  compute_scores: true

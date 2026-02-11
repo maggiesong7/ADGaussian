@@ -1,0 +1,4 @@
+depth:
+  weight: 0.05
+  sigma_image: 1.0
+  use_second_derivative: false

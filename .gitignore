@@ -1,0 +1,54 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+
+# Outputs
+outputs/
+results/
+
+# Checkpoints
+checkpoints/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Hydra
+.hydra/
+
+# Datasets
+data/
+dataset/
+
+# Large files
+*.zip
+*.rar
+*.tar.gz
+*.h5
+
+# Temporary files
+*.tmp
+*.temp
+EOF
